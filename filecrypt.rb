@@ -14,3 +14,5 @@ class Filecrypt < Formula
         end
 
     end
+end
+
