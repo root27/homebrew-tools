@@ -11,6 +11,7 @@ This repo contains written brew packages
 - [ymlgen](https://github.com/root27/ymlgen)
 - [filecrypt](https://github.com/root27/filecrypt)
 - [termapi](https://github.com/root27/termapi)
+- [termongo](https://github.com/root27/termongo)
 
 ---
 
