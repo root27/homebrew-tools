@@ -12,6 +12,7 @@ This repo contains written brew packages
 - [filecrypt](https://github.com/root27/filecrypt)
 - [termapi](https://github.com/root27/termapi)
 - [termongo](https://github.com/root27/termongo)
+- [slackMQ](https://github.com/root27/slacknotifyMQ)
 
 ---
 
