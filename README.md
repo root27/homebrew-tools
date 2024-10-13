@@ -13,6 +13,7 @@ This repo contains written brew packages
 - [termapi](https://github.com/root27/termapi)
 - [termongo](https://github.com/root27/termongo)
 - [slackMQ](https://github.com/root27/slacknotifyMQ)
+- [bgremover-cli](https://github.com/root27/bgremover)
 
 ---
 
