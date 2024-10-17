@@ -5,20 +5,20 @@
 class BgremoverCli < Formula
   desc ""
   homepage ""
-  version "1.0.1"
+  version "1.0.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/root27/bgremover/releases/download/v1.0.1/bgremover_Darwin_x86_64.tar.gz"
-      sha256 "1b41979ce887518dd885623cb5f77ef963df3bd7552dfe8f8288441e9cf4eabb"
+      url "https://github.com/root27/bgremover/releases/download/v1.0.3/bgremover_Darwin_x86_64.tar.gz"
+      sha256 "50f37431d352fbcb63a2ed8821bf84844d98523b4a1631c7aa74f62e123769b9"
 
       def install
         bin.install "bgremover-cli"
       end
     end
     on_arm do
-      url "https://github.com/root27/bgremover/releases/download/v1.0.1/bgremover_Darwin_arm64.tar.gz"
-      sha256 "bf0568ab3bf9c14c2954760f2af142f6676410e4a75d6c8587042c974ccdadd6"
+      url "https://github.com/root27/bgremover/releases/download/v1.0.3/bgremover_Darwin_arm64.tar.gz"
+      sha256 "ce4df871d310e4ac35110c49a37276eda62e6bdb019694dd3f0c0ee656f249fb"
 
       def install
         bin.install "bgremover-cli"
@@ -29,8 +29,8 @@ class BgremoverCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/root27/bgremover/releases/download/v1.0.1/bgremover_Linux_x86_64.tar.gz"
-        sha256 "6ce921762870af6c60a1aa7f21e557bb23b88eff394929f94d65072bbf72ef2f"
+        url "https://github.com/root27/bgremover/releases/download/v1.0.3/bgremover_Linux_x86_64.tar.gz"
+        sha256 "45c6f737201af9581b61cd5f373ef8eafe778cddda4bad48708c0d4f881f876e"
 
         def install
           bin.install "bgremover-cli"
@@ -39,8 +39,8 @@ class BgremoverCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/root27/bgremover/releases/download/v1.0.1/bgremover_Linux_arm64.tar.gz"
-        sha256 "264f222f2effbc03265057ba4591f7644272bdd1e97e929878bde0bcde0454ab"
+        url "https://github.com/root27/bgremover/releases/download/v1.0.3/bgremover_Linux_arm64.tar.gz"
+        sha256 "0641a98071715e268d901451834028bb54300aca51c980133220347bd34095d2"
 
         def install
           bin.install "bgremover-cli"
