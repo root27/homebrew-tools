@@ -14,6 +14,7 @@ This repo contains written brew packages
 - [termongo](https://github.com/root27/termongo)
 - [slackMQ](https://github.com/root27/slacknotifyMQ)
 - [bgremover-cli](https://github.com/root27/bgremover)
+- [hook](https://github.com/root27/hook)
 
 ---
 
